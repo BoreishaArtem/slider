@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  background-color: #eeeeee;
+}
+
+.slider-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: inherit;
+  padding: 10px;
+  position: relative;
+  transition: all 1s;
+}
+
+.slider__element {
+  padding: 10px;
+  width: 28%;
+  margin-top: 80px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dots {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #c7c2c2;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #ec6730;
+}
